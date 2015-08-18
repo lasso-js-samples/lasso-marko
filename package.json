@@ -1,0 +1,24 @@
+{
+  "name": "lasso-templates",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lasso-js-samples/lasso-marko.git"
+  },
+  "dependencies": {
+    "lasso": "^1.10.2",
+    "lasso-cli": "^1.1.13",
+    "lasso-marko": "^2.0.4",
+    "marko": "^2.7.11"
+  },
+  "browser": {
+    "./display-results.js": "./display-results-browser.js"
+  }
+}
