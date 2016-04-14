@@ -9,6 +9,7 @@ This sample app demonstrates how Lasso.js can be used to compile Marko template 
 git clone git@github.com:lasso-js-samples/lasso-marko.git
 cd lasso-marko
 npm install
-./build.sh
-open index.html
+npm start
 ```
+
+Open `http://localhost:8080/` in your web browser.

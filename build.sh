@@ -1,2 +1,6 @@
 #!/bin/bash
-./node_modules/.bin/lasso --main client.js --plugins lasso-marko --name bundle --inject-into index.html --url-prefix "./static"
+
+mkdir -p build
+cp src/index.html build/index.html
+
+lasso --main src/client.js --plugins lasso-marko --name bundle --inject-into build/index.html --url-prefix "/static" --output-dir build/static/
